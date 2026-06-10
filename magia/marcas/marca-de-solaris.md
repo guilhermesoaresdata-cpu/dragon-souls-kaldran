@@ -21,6 +21,8 @@ A Marca de Solaris representa foco, centro, ordem e julgamento.
 
 Nos soldados do Imperio Sagrado, ela funciona como selo de propriedade militar e autorizacao para carregar uma fracao funcional da [Runa de Solaris](../runas/runa-de-solaris.md).
 
+Aquele que carrega o simbolo de Solaris nao recebeu apenas uma bencao. Recebeu uma funcao dentro da maquina sagrada de Asgardia.
+
 Para o Imperio, e bencao. Para seus inimigos, e producao em massa.
 
 ## Relacoes

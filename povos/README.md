@@ -15,10 +15,12 @@ Registro dos povos oficiais de Kaldran.
 
 - [Humanos](humanos.md)
 - [Valerianos](valerianos.md)
+- [Valerianos Nobres](valerianos/nobres/README.md)
 
 ## Relacoes
 
 - [Kaldran](../mapa/kaldran/README.md)
+- [Solaris](../personagens/valerianos/solaris.md)
 
 ## Pendencias
 

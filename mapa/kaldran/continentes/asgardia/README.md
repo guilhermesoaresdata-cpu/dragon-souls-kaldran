@@ -16,10 +16,13 @@ Asgardia e o continente central de Kaldran, separado por mar. E onde fica a base
 - O poder temporal e o poder divino sao separados geograficamente.
 - O Dia da Purificacao e o maior evento militar e religioso de Asgardia.
 - Existe uma guerra fria entre Valerianos dentro de Asgardia.
+- Asgardia so existe porque Solaris permite.
 
 ## Detalhes
 
 Em Asgardia, o Rei governa o Imperio no papel, mas Solaris governa a legitimidade do Rei.
+
+Asgardia nao governa porque e livre. Asgardia governa porque Solaris permite.
 
 O Palacio Imperial concentra a maquina humana do Imperio: ministros, generais, escribas, cobradores de impostos, mapas de guerra, burocracia, economia, decretos, aliancas, punicoes e campanhas militares.
 

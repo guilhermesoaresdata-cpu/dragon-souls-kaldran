@@ -6,9 +6,25 @@ Solaris e um Valeriano Nobre da Primeira Geracao, venerado pelo Imperio Sagrado 
 
 ## Informacoes Oficiais
 
+- Solaris e o nome verdadeiro dele.
 - Solaris e um Valeriano Nobre da Primeira Geracao.
 - Solaris e chamado de Deus do Sol.
 - Solaris e tambem chamado de Primeiro Escudo e Matador de Demonios.
+- Solaris e implacavel, justo, inabalavel e legalista.
+- Solaris enxerga o mundo em preto e branco.
+- Solaris odeia o caos.
+- Solaris possui odio metodico e estrategico pela raca demoniaca.
+- Sua aparencia transmite autoridade esmagadora.
+- Seus olhos parecem ouro liquido.
+- A Runa de Solaris representa Purificacao Absoluta.
+- A Marca de Solaris e um circulo perfeito com um ponto no centro: **⊙**.
+- Solaris e a base do poder de Asgardia.
+- O Rei governa em nome de Solaris.
+- Solaris protege a capital.
+- Solaris fornece sua Runa aos exercitos imperiais.
+- Solaris e aliado da humanidade, mas punira humanos que violarem suas leis.
+- O Rei vive em reverencia e medo diante de Solaris.
+- Asgardia so existe porque Solaris permite.
 - Solaris nao governa o Imperio diretamente no papel.
 - O Rei governa o Imperio no Palacio Imperial.
 - Solaris governa a legitimidade do Rei a partir da Cidadela Eclesiastica.
@@ -20,6 +36,32 @@ Solaris e um Valeriano Nobre da Primeira Geracao, venerado pelo Imperio Sagrado 
 
 ## Detalhes
 
+### Natureza
+
+Solaris nao e apenas um dos seres mais antigos ainda vivos em Kaldran. Ele e uma das matrizes runicas mais puras, primitivas e devastadoras remanescentes da linhagem Valeriana.
+
+Para o Imperio Sagrado, Solaris e o Deus do Sol. Para os soldados de Asgardia, e o poder que corre por suas Marcas. Para os demonios, e uma sentenca.
+
+### Personalidade
+
+Solaris e implacavel, justo, inabalavel e extremamente apegado as leis.
+
+Ele enxerga o mundo em opostos absolutos: ordem e corrupcao, lei e transgressao, pureza e contaminacao, obediencia e ameaca.
+
+Solaris detesta o caos nao por medo, mas por principio. Para ele, o caos e a primeira rachadura por onde a corrupcao entra. Por isso, sua justica nao e calorosa, misericordiosa ou humana. E solar: clara, direta, ofuscante e sem sombra para esconder culpa.
+
+Seu odio pelos demonios nao e descontrolado. Nao e um acesso de furia. E metodico, estrategico e absoluto. Solaris nao odeia como um homem odeia. Ele odeia como uma lei natural rejeita uma infeccao.
+
+### Aparencia
+
+Solaris possui postura rigida e majestosa. Sua presenca parece ordenar o espaco ao redor.
+
+Antes mesmo de falar, ele impoe silencio. Humanos comuns sentem sua aura como um peso fisico sobre os ombros, uma pressao invisivel que obriga a coluna a se curvar e a respiracao a medir cada movimento.
+
+Seus olhos parecem ouro liquido: vivos, ardentes e quase impossiveis de encarar por muito tempo.
+
+Solaris nao precisa gritar, gesticular ou ameacar. A ameaca esta no fato de que ele permanece perfeitamente calmo.
+
 ### Estrutura de Poder em Asgardia
 
 O poder temporal e o poder divino sao separados geograficamente em Asgardia. O Rei vive no Palacio Imperial, cercado pela maquina humana do Imperio: ministros, generais, escribas, cobradores de impostos, mapas de guerra, burocracia, economia, decretos, aliancas, punicoes e campanhas militares.
@@ -29,6 +71,8 @@ Solaris habita a [Cidadela Eclesiastica](../../mapa/kaldran/continentes/asgardia
 Solaris nao desce as pracas para ouvir suplicas, nao visita mercados, nao atravessa bairros pobres e nao se mistura ao povo que o adora. Essa distancia e parte de sua construcao de poder: quanto menos ele aparece, mais sua presenca pesa.
 
 Em Asgardia, o Rei governa o Imperio, mas Solaris governa a legitimidade do Rei.
+
+Asgardia nao governa porque e livre. Asgardia governa porque Solaris permite.
 
 ### Dia da Purificacao
 
@@ -43,6 +87,28 @@ Para o Imperio, a Marca e bencao. Para seus inimigos, e producao em massa.
 Nos ultimos dias da Guerra da Ruptura, quando os ultimos exercitos demoniacos tentavam resistir em solo asgardiano, Solaris avancou contra o lider da invasao e decapitou o Lorde Demonio que comandava a resistencia final em Asgardia.
 
 Esse ato nao encerrou sozinho toda a Guerra da Ruptura, mas consolidou sua lenda como Matador de Demonios.
+
+Solaris nao negociou com a invasao, nao recuou diante da biologia infernal e nao purificou por misericordia, mas por eliminacao.
+
+### Relacao com o Imperio Sagrado
+
+O Rei venera Solaris e governa em seu nome. Toda autoridade imperial existe a sombra da permissao de Solaris.
+
+Em troca, Solaris protege a capital e fornece sua Runa para os exercitos imperiais.
+
+Essa relacao nao e simples devocao. E dependencia politica.
+
+Se Solaris retirasse sua protecao, o Imperio perderia seu coracao. Se Solaris negasse sua Marca, o exercito perderia sua padronizacao sagrada. Se Solaris julgasse o Rei indigno, a coroa se tornaria apenas metal sobre uma cabeca condenada.
+
+Solaris e aliado da humanidade, mas nao e servo dela.
+
+Os humanos sabem que, se quebrarem suas leis, a purificacao recaira sobre eles com a mesma forca que recai sobre demonios.
+
+### Papel em Kaldran
+
+Solaris representa a ordem levada ao limite.
+
+Para muitos, Solaris e o escudo que impede o Inferno de retornar. Para outros, e apenas outro tipo de fogo esperando permissao para queimar.
 
 ### Xadrez dos Deuses
 
@@ -70,3 +136,7 @@ Asgardia permanece inteira nao por harmonia divina, mas por conveniencia estrate
 - Definir o nome civil ou historico do Rei de Asgardia.
 - Definir quais membros formam a cupula da Igreja.
 - Definir outros Valerianos presentes em Asgardia.
+- Definir o nome do Lorde Demonio decapitado por Solaris.
+- Definir se Solaris ja purificou humanos em massa.
+- Definir se Solaris teme algo.
+- Definir quais Valerianos odeiam Solaris diretamente.

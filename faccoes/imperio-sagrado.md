@@ -22,6 +22,11 @@ O Imperio Sagrado e a faccao dominante de Asgardia e se sustenta na autoridade v
 - A Marca comum de Solaris e aplicada nas costas da mao direita dos recrutas.
 - A Marca comum de Solaris e limpa e indolor.
 - Solaris possui um campeao singular chamado Cavaleiro Santo.
+- Solaris protege a capital.
+- Solaris fornece sua Runa aos exercitos imperiais.
+- O Rei governa em nome de Solaris e vive em reverencia e medo diante dele.
+- Asgardia so existe porque Solaris permite.
+- Solaris e aliado da humanidade, mas nao e servo dela.
 
 ## Detalhes
 
@@ -29,9 +34,13 @@ O Imperio Sagrado controla parte da narrativa religiosa sobre os Valerianos, tra
 
 A divinizacao dos Valerianos pode ser interpretacao religiosa, politica ou manipulacao.
 
+Asgardia nao governa porque e livre. Asgardia governa porque Solaris permite.
+
 ### Trono Eclesiastico
 
 O poder temporal e o poder divino sao separados geograficamente. O Rei governa a maquina humana do Imperio no Palacio Imperial. Solaris habita a [Cidadela Eclesiastica](../mapa/kaldran/continentes/asgardia/capital/cidadela-eclesiastica.md), onde recebe apenas o Rei e a cupula da Igreja.
+
+Toda autoridade imperial existe a sombra da permissao de Solaris. Se Solaris retirasse sua protecao, o Imperio perderia seu coracao. Se Solaris negasse sua Marca, o exercito perderia sua padronizacao sagrada. Se Solaris julgasse o Rei indigno, a coroa se tornaria apenas metal sobre uma cabeca condenada.
 
 ### Exercito Solar
 
@@ -57,7 +66,6 @@ O [Cavaleiro Santo](../personagens/cavaleiro-santo/README.md) nao e equivalente 
 ## Pendencias
 
 - Definir se "Imperio" e "Imperio Sagrado" sao exatamente a mesma entidade.
-- Definir a estrutura politica do Imperio Sagrado.
 - Definir o nome do rei.
 - Definir se o Imperio Sagrado sabe a verdade sobre os Valerianos.
 - Definir se o Imperio Sagrado caca Valerianos escondidos.

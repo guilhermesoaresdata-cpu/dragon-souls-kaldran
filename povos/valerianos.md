@@ -57,6 +57,7 @@ Solaris transformou sua matriz runica em base de uma estrutura politica, religio
 - [Guerra da Ruptura](../historia/eventos/guerra-da-ruptura.md)
 - [Imperio Sagrado](../faccoes/imperio-sagrado.md)
 - [Solaris](../personagens/valerianos/solaris.md)
+- [Solaris - Casta Valeriana](valerianos/nobres/solaris.md)
 - [Cavaleiro Santo](../personagens/cavaleiro-santo/README.md)
 
 ## Pendencias
