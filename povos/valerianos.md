@@ -29,6 +29,7 @@ Eles nao sao deuses verdadeiros. Sao parecidos fisicamente com humanos, mas poss
 - Muitos deles nao querem ser adorados e recusam distribuir seu poder.
 - Existem Valerianos que se recusam completamente a marcar humanos.
 - Solaris e um Valeriano Nobre da Primeira Geracao.
+- As duas castas Valerianas atualmente conhecidas sao Valerianos Nobres e Valerianos Comuns.
 - A raca Valeriana nao e unida.
 - Outros Valerianos veem Solaris como hipocrita, arrogante ou perigoso.
 - Existe uma guerra fria entre Valerianos dentro de Asgardia.
@@ -44,6 +45,22 @@ Valeriano = fonte do codigo
 Humano marcado = terminal que executa o codigo
 Humano comum = alma sem runa
 ```
+
+## Hierarquia do Sangue
+
+Um Valeriano e um ser que nasce com uma Runa gravada na alma.
+
+Um Humano e um ser que nasce sem Runa.
+
+Nao existem hibridos ou meios-termos entre Valerianos e Humanos. A divisao nao e estetica, cultural ou social. E espiritual.
+
+### Valerianos Nobres
+
+Tambem chamados de Primeira Geracao, sao rarissimos, possuem sangue mais puro, matrizes runicas mais primitivas, poder devastador, longevidade extrema e excentricidade perigosa.
+
+### Valerianos Comuns
+
+Sao mais numerosos que os Nobres, embora ainda escassos. Possuem Runa de nascenca, sao poderosos, mas inferiores aos Nobres, e podem participar mais diretamente do mundo.
 
 ## Relacao com Religiao
 
@@ -69,6 +86,8 @@ Alguns Valerianos recusam completamente a pratica. Para eles, compartilhar uma R
 - [Imperio Sagrado](../faccoes/imperio-sagrado.md)
 - [Solaris](../personagens/valerianos/solaris.md)
 - [Solaris - Casta Valeriana](valerianos/nobres/solaris.md)
+- [Valerianos Nobres](valerianos/nobres/README.md)
+- [Valerianos Comuns](valerianos/comuns/README.md)
 - [Cavaleiro Santo](../personagens/cavaleiro-santo/README.md)
 
 ## Pendencias

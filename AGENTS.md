@@ -12,6 +12,8 @@ O agente nao e o autor principal da lore. O agente nao deve inventar informacoes
 
 Somente informacoes enviadas pelo criador sao consideradas lore oficial.
 
+Quando o criador enviar texto narrativo forte, o agente deve preservar a voz do criador. O agente nao deve transformar automaticamente esse material em resumo seco. Quando necessario, deve manter dois registros coexistentes: um texto narrativo oficial e um registro enciclopedico de consulta.
+
 O agente pode:
 
 - organizar;
@@ -70,6 +72,41 @@ Sempre que o criador enviar nova lore, o agente deve:
 8. Nao inventar nada alem do que foi informado.
 9. Se houver duvida, criar uma secao de pendencia.
 10. Se houver contradicao com algo ja registrado, avisar em [notas/duvidas.md](notas/duvidas.md).
+
+## Tratamento de Lore Estrutural
+
+A lore dos Valerianos, da Runa, dos Humanos Ocos, das Bencaos e da Mecanica da Marca e uma das bases centrais de Kaldran.
+
+O agente deve usar essa lore como referencia de prioridade alta para qualquer informacao futura relacionada a magia, religiao, linhagem, deuses, bencaos, humanos marcados e Valerianos.
+
+Orientacao detalhada: [notas/instrucoes-de-lore.md](notas/instrucoes-de-lore.md).
+
+O agente deve considerar oficial:
+
+- Valerianos nao estao extintos.
+- Valerianos nascem com uma Runa cravada na alma.
+- Humanos nascem sem Runa.
+- Nao existem hibridos entre Valerianos e Humanos.
+- A magia humana depende de Marcas concedidas por Valerianos.
+- A Runa verdadeira do Valeriano fica na alma.
+- A Runa do Humano marcado fica apenas na pele.
+- Se a pele marcada for destruida, o Humano perde o acesso ao poder.
+- O Imperio Sagrado cultua Valerianos como deuses por pragmatismo religioso, nao porque sejam criadores divinos do universo.
+
+## Texto Narrativo e Registro Enciclopedico
+
+O agente nunca deve substituir o texto narrativo pelo enciclopedico.
+
+Exemplos de texto narrativo oficial:
+
+- [historia/capitulos/capitulo-01-guerra-da-ruptura.md](historia/capitulos/capitulo-01-guerra-da-ruptura.md)
+- [historia/capitulos/hierarquia-do-sangue.md](historia/capitulos/hierarquia-do-sangue.md)
+
+Exemplos de registro enciclopedico:
+
+- [povos/valerianos.md](povos/valerianos.md)
+- [povos/humanos.md](povos/humanos.md)
+- [magia/mecanica-da-marca.md](magia/mecanica-da-marca.md)
 
 ## Estrutura principal
 

@@ -18,6 +18,7 @@ Registro dos sistemas, fenomenos e regras de magia oficiais de Kaldran.
 
 - [Runas](runas.md)
 - [Bencao](bencao.md)
+- [Bencaos](bencaos.md)
 - [Mecanica da Marca](mecanica-da-marca.md)
 - [Runas Especificas](runas/README.md)
 - [Marcas](marcas/README.md)

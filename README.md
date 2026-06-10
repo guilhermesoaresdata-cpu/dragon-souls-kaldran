@@ -68,3 +68,6 @@ Quando uma informacao ainda nao foi definida, ela deve permanecer marcada como:
 - [Solaris](personagens/valerianos/solaris.md)
 - [Cavaleiro Santo](personagens/cavaleiro-santo/README.md)
 - [Mecanica da Marca](magia/mecanica-da-marca.md)
+- [Hierarquia do Sangue](historia/capitulos/hierarquia-do-sangue.md)
+- [Pragmatismo Religioso](religioes/pragmatismo-religioso.md)
+- [Instrucoes de Tratamento da Lore](notas/instrucoes-de-lore.md)

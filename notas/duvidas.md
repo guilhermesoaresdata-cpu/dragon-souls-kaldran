@@ -33,6 +33,15 @@ Se lore futura afirmar qualquer um dos pontos abaixo, registrar como duvida ante
 - Todo Valeriano aceita marcar humanos.
 - O exercito do Imperio Sagrado tem Marcas variadas como padrao.
 - Humanos marcados viram imortais.
+- Humanos nascem naturalmente com magia.
+- Humanos possuem Runa na alma.
+- Existem meio-Valerianos.
+- A Marca humana fica na alma.
+- A Marca nao pode ser destruida.
+- Marcar Humanos enfraquece Valerianos.
+- Todos os Valerianos sao cultuados igualmente.
+- O Imperio Sagrado necessariamente esconde toda a verdade.
+- Demonios invadiram Kaldran apenas por maldade pura.
 
 ## Aguardando Decisao do Criador
 

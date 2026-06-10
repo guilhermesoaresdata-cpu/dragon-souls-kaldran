@@ -16,6 +16,7 @@ Registro dos eventos historicos oficiais de Kaldran.
 - [Supercontinente Quebrado](supercontinente-quebrado.md)
 - [Guerra da Ruptura](eventos/guerra-da-ruptura.md)
 - [Capitulo I - A Guerra da Ruptura e a Quebra do Codigo](capitulos/capitulo-01-guerra-da-ruptura.md)
+- [Hierarquia do Sangue](capitulos/hierarquia-do-sangue.md)
 
 ## Relacoes
 

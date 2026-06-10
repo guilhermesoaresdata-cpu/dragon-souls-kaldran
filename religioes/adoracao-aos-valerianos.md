@@ -23,12 +23,15 @@ A divinizacao dos Valerianos pode ser uma interpretacao religiosa, politica ou m
 
 Em Asgardia, a adoracao a Solaris e organizada pela Cidadela Eclesiastica e ganha forma publica no Dia da Purificacao.
 
+Essa adoracao deve ser entendida como [pragmatismo religioso](pragmatismo-religioso.md): sobrevivencia, dependencia e negociacao.
+
 ## Relacoes
 
 - [Imperio Sagrado](../faccoes/imperio-sagrado.md)
 - [Valerianos](../povos/valerianos.md)
 - [Solaris](../personagens/valerianos/solaris.md)
 - [Cidadela Eclesiastica](../mapa/kaldran/continentes/asgardia/capital/cidadela-eclesiastica.md)
+- [Pragmatismo Religioso](pragmatismo-religioso.md)
 - [Runas](../magia/runas.md)
 - [Bencao](../magia/bencao.md)
 

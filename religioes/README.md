@@ -16,6 +16,7 @@ Registro das religioes oficiais de Kaldran.
 ## Detalhes
 
 - [Adoracao aos Valerianos](adoracao-aos-valerianos.md)
+- [Pragmatismo Religioso](pragmatismo-religioso.md)
 - [Solaris](../personagens/valerianos/solaris.md)
 - [Cidadela Eclesiastica](../mapa/kaldran/continentes/asgardia/capital/cidadela-eclesiastica.md)
 
@@ -25,6 +26,7 @@ Registro das religioes oficiais de Kaldran.
 - [Imperio Sagrado](../faccoes/imperio-sagrado.md)
 - [Asgardia](../mapa/kaldran/continentes/asgardia/README.md)
 - [Marca de Solaris](../magia/marcas/marca-de-solaris.md)
+- [Mecanica da Marca](../magia/mecanica-da-marca.md)
 
 ## Pendencias
 

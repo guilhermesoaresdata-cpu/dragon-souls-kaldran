@@ -8,10 +8,12 @@ Indice interno para organizacao de castas e linhagens Valerianas.
 
 - Valerianos sao uma raca antiga com Runas espirituais gravadas na alma.
 - [Solaris](nobres/solaris.md) e um Valeriano Nobre da Primeira Geracao.
+- Existem duas castas atualmente conhecidas: Valerianos Nobres e Valerianos Comuns.
 
 ## Detalhes
 
 - [Valerianos Nobres](nobres/README.md)
+- [Valerianos Comuns](comuns/README.md)
 
 ## Relacoes
 

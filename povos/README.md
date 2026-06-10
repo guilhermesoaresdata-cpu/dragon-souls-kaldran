@@ -16,6 +16,7 @@ Registro dos povos oficiais de Kaldran.
 - [Humanos](humanos.md)
 - [Valerianos](valerianos.md)
 - [Valerianos Nobres](valerianos/nobres/README.md)
+- [Valerianos Comuns](valerianos/comuns/README.md)
 
 ## Relacoes
 

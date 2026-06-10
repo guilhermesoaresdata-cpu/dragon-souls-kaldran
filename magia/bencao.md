@@ -19,6 +19,7 @@ Na pratica, a Bencao e uma [Runa](runas.md): um codigo espiritual gravado na alm
 ## Relacoes
 
 - [Runas](runas.md)
+- [Bencaos](bencaos.md)
 - [Valerianos](../povos/valerianos.md)
 - [Humanos](../povos/humanos.md)
 - [Imperio Sagrado](../faccoes/imperio-sagrado.md)

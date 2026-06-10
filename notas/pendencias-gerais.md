@@ -16,5 +16,4 @@ Pendencias gerais do projeto Dragon Souls: Kaldran.
 - Definir personagens.
 - Definir conflitos principais alem da Guerra da Ruptura.
 - Definir se o Imperio Sagrado sabe a verdade sobre os Valerianos.
-- Definir se um humano pode receber mais de uma Runa.
-- Definir o que acontece se uma marca de Runa for removida.
+- Manter [instrucoes-de-lore.md](instrucoes-de-lore.md) atualizado quando novas regras estruturais forem definidas.
