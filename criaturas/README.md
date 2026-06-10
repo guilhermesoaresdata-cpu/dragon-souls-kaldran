@@ -6,11 +6,13 @@ Registro das criaturas oficiais de Kaldran.
 
 ## Informacoes Oficiais
 
-> Ainda nao definido pelo criador.
+- Demonios existem em Kaldran ou ja invadiram Kaldran.
+- Demonios vieram de um plano vizinho, hostil e superpopuloso.
+- Demonios entraram pela Porta do Inferno.
 
 ## Detalhes
 
-> Ainda nao definido pelo criador.
+- [Demonios](demonios.md)
 
 ## Relacoes
 
@@ -18,4 +20,5 @@ Registro das criaturas oficiais de Kaldran.
 
 ## Pendencias
 
-- Definir criaturas oficiais.
+- Definir outras criaturas oficiais.
+- Definir se ainda existem demonios em Kaldran.

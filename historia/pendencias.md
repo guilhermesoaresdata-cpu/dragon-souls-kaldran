@@ -2,5 +2,6 @@
 
 - Definir eras historicas.
 - Definir quando o supercontinente se quebrou.
-- Definir a causa da quebra.
-- Definir consequencias historicas, culturais e geograficas.
+- Definir consequencias culturais da Guerra da Ruptura.
+- Definir como cada continente preserva ou distorce a memoria da ruptura.
+- Definir principais registros historicos sobre os Valerianos.

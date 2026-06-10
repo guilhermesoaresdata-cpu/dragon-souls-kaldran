@@ -8,7 +8,7 @@ Torre gigante.
 
 Mundo: [Kaldran](../../../README.md)  
 Continente: [Belmora](../README.md)  
-Regiao ou cidade: ainda nao definida pelo criador.
+Regiao ou cidade: porcao direita de Belmora no mapa conhecido; regiao ou cidade especifica ainda nao definida pelo criador.
 
 ## Descricao
 

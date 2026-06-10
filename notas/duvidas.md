@@ -14,4 +14,12 @@ Registro de duvidas, lacunas e possiveis contradicoes que aguardam decisao do cr
 
 ## Aguardando Decisao do Criador
 
-> Ainda nao definido pelo criador.
+- Existem Valerianos puros vivos atualmente alem dos originais escondidos?
+- Quantos Valerianos ainda existem?
+- Todo Valeriano pode marcar humanos ou so alguns?
+- Um humano pode receber mais de uma Runa?
+- O que acontece se a marca for removida?
+- O Imperio Sagrado sabe a verdade sobre os Valerianos?
+- O povo comum sabe que humanos descendem dos Valerianos?
+- A palavra "oco" ainda e usada como insulto?
+- Existem humanos nascidos com fragmentos naturais de Runa?

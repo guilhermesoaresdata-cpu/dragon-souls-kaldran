@@ -14,13 +14,16 @@ Zharveth e o maior continente de Kaldran. E perigoso e muito chamado de Continen
 - Possui areas vulcanicas.
 - Possui picos e montanhas como espinhos ao redor.
 - Pelo mar e impossivel acessar.
-- O unico acesso e pelo estreito.
+- O unico acesso e pelo Estreito de Utgard.
 - Abriga a [Porta do Inferno](locais/porta-do-inferno.md).
 - O continente e muito monitorado pelo Imperio para controlar o acesso.
+- A realidade rasgou no extremo sul do mundo, na regiao que hoje e Zharveth.
+- A Porta do Inferno foi o ponto de entrada dos demonios em Kaldran.
+- A Porta do Inferno foi isolada em Zharveth apos a quebra do supercontinente.
 
 ## Detalhes
 
-> Ainda nao definido pelo criador.
+Zharveth se tornou o Continente Negro depois da Guerra da Ruptura, quando a quebra do supercontinente isolou a Porta do Inferno.
 
 ## Relacoes
 
@@ -28,9 +31,10 @@ Zharveth e o maior continente de Kaldran. E perigoso e muito chamado de Continen
 - [Utgard](../utgard/README.md)
 - [Imperio Sagrado](../../../../faccoes/imperio-sagrado.md)
 - [Porta do Inferno](locais/porta-do-inferno.md)
+- [Guerra da Ruptura](../../../../historia/eventos/guerra-da-ruptura.md)
+- [Demonios](../../../../criaturas/demonios.md)
 
 ## Pendencias
 
-- Definir o nome do estreito de acesso.
 - Definir como o Imperio monitora Zharveth.
 - Definir povos, cidades e perigos especificos.

@@ -9,12 +9,14 @@ Registro das rotas oficiais de Kaldran.
 - Belmora e ligada a Vintergard por terra.
 - O unico acesso a Zharveth e pelo estreito.
 - Entre Utgard e Zharveth existe um estreito.
+- O estreito entre Utgard e Zharveth se chama Estreito de Utgard.
 - O estreito nem sempre esta aberto.
 - A abertura do estreito depende do mar.
+- O mapa conhecido mostra rotas maritimas entre os continentes.
 
 ## Detalhes
 
-> Ainda nao definido pelo criador.
+As rotas maritimas aparecem no mapa como linhas tracejadas ligando regioes conhecidas.
 
 ## Relacoes
 
@@ -26,6 +28,8 @@ Registro das rotas oficiais de Kaldran.
 
 ## Pendencias
 
-- Definir nome do estreito entre Utgard e Zharveth.
 - Definir rotas terrestres entre Belmora e Vintergard.
 - Definir rotas comerciais de Asgardia.
+- Definir nomes das rotas maritimas.
+- Definir quais rotas sao controladas pelo Imperio Sagrado.
+- Definir quando o Estreito de Utgard abre e fecha.

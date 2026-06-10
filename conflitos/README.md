@@ -6,11 +6,12 @@ Registro dos conflitos oficiais de Kaldran.
 
 ## Informacoes Oficiais
 
-> Ainda nao definido pelo criador.
+- A Guerra da Ruptura foi o conflito entre Valerianos e demonios.
+- A Guerra da Ruptura levou a quebra do supercontinente de Kaldran.
 
 ## Detalhes
 
-> Ainda nao definido pelo criador.
+- [Guerra da Ruptura](guerra-da-ruptura.md)
 
 ## Relacoes
 
@@ -18,4 +19,5 @@ Registro dos conflitos oficiais de Kaldran.
 
 ## Pendencias
 
-- Definir conflitos oficiais.
+- Definir outros conflitos oficiais.
+- Definir principais batalhas da Guerra da Ruptura.

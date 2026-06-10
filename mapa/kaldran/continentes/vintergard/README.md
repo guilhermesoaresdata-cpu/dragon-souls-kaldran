@@ -12,15 +12,17 @@ Vintergard e o continente superior de Kaldran, com inspiracao fria e nordica.
 - Possui lagos glaciais.
 - Possui uma floresta boreal gigante.
 - No centro existe [O Cranio](locais/o-cranio.md).
+- O Mar de Gelo fica ao sul de Vintergard no mapa conhecido.
 
 ## Detalhes
 
-> Ainda nao definido pelo criador.
+No mapa conhecido, O Cranio aparece em uma regiao central de Vintergard cercada por frio, montanhas, lagos glaciais e floresta boreal.
 
 ## Relacoes
 
 - [Kaldran](../../README.md)
 - [O Cranio](locais/o-cranio.md)
+- [Mar de Gelo](../../mares/README.md)
 
 ## Pendencias
 

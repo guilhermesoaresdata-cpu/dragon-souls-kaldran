@@ -1,3 +1,5 @@
 # Pendencias de Conflitos
 
-- Definir conflitos oficiais.
+- Definir outros conflitos oficiais.
+- Definir principais batalhas da Guerra da Ruptura.
+- Definir liderancas Valerianas e demonicas.

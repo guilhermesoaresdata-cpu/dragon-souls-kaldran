@@ -6,11 +6,13 @@ Registro das religioes oficiais de Kaldran.
 
 ## Informacoes Oficiais
 
-> Ainda nao definido pelo criador.
+- O Imperio Sagrado prega adoracao aos Valerianos.
+- Os Valerianos sao chamados de deuses pelo Imperio Sagrado.
+- As marcas concedidas por Valerianos sao tratadas como bencaos religiosas.
 
 ## Detalhes
 
-> Ainda nao definido pelo criador.
+- [Adoracao aos Valerianos](adoracao-aos-valerianos.md)
 
 ## Relacoes
 
@@ -18,4 +20,5 @@ Registro das religioes oficiais de Kaldran.
 
 ## Pendencias
 
-- Definir religioes oficiais.
+- Definir o nome oficial da religiao imperial.
+- Definir se existem outras religioes oficiais.

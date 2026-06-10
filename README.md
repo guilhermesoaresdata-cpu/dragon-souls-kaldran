@@ -32,6 +32,13 @@ Quando uma informacao ainda nao foi definida, ela deve permanecer marcada como:
 - Projeto: **Dragon Souls: Kaldran**
 - Kaldran ja foi um supercontinente quebrado.
 - Atualmente, Kaldran e dividido em cinco continentes principais.
+- A magia em Kaldran nao e energia solta: magia e codigo espiritual executado por Runas.
+- Humanos sao descendentes ocos dos Valerianos.
+- O Imperio Sagrado trata Valerianos como deuses.
+
+## Mapa oficial
+
+![Mapa de Kaldran](mapa/kaldran/imagens/mapa-kaldran-mundo-conhecido.png)
 
 ## Continentes oficiais
 
@@ -46,3 +53,10 @@ Quando uma informacao ainda nao foi definida, ela deve permanecer marcada como:
 - [O Cranio](mapa/kaldran/continentes/vintergard/locais/o-cranio.md)
 - [Sentinela](mapa/kaldran/continentes/belmora/locais/sentinela.md)
 - [Porta do Inferno](mapa/kaldran/continentes/zharveth/locais/porta-do-inferno.md)
+
+## Lore central
+
+- [Capitulo I - A Guerra da Ruptura e a Quebra do Codigo](historia/capitulos/capitulo-01-guerra-da-ruptura.md)
+- [Guerra da Ruptura](historia/eventos/guerra-da-ruptura.md)
+- [Valerianos](povos/valerianos.md)
+- [Runas](magia/runas.md)
