@@ -25,6 +25,14 @@ Se lore futura afirmar qualquer um dos pontos abaixo, registrar como duvida ante
 - O Cavaleiro Santo virou Valeriano.
 - O Cavaleiro Santo recebe a Marca apenas na pele.
 - Os Valerianos de Asgardia sao unidos e harmonicos.
+- Um Valeriano cancelou a Marca de alguem a distancia.
+- Uma Marca sumiu porque o Valeriano quis.
+- Um humano perdeu a magia sem a Marca ser destruida.
+- Um corpo humano rejeitou biologicamente uma segunda Runa.
+- Todas as Marcas tem o mesmo formato.
+- Todo Valeriano aceita marcar humanos.
+- O exercito do Imperio Sagrado tem Marcas variadas como padrao.
+- Humanos marcados viram imortais.
 
 ## Aguardando Decisao do Criador
 

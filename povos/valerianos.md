@@ -22,8 +22,12 @@ Eles nao sao deuses verdadeiros. Sao parecidos fisicamente com humanos, mas poss
 - Valerianos podem gravar uma copia de sua Runa em humanos.
 - Para o Valeriano, marcar um humano nao custa nada.
 - A matriz espiritual Valeriana permanece intacta e inesgotavel.
+- Cada Valeriano possui uma Runa visualmente unica.
+- A aparencia das Marcas depende da vontade, estetica e natureza do Valeriano que as concede.
+- Um Valeriano nao pode cancelar uma Marca a distancia depois que ela foi gravada.
 - Muitos Valerianos originais vivem escondidos em Utgard ou Belmora.
 - Muitos deles nao querem ser adorados e recusam distribuir seu poder.
+- Existem Valerianos que se recusam completamente a marcar humanos.
 - Solaris e um Valeriano Nobre da Primeira Geracao.
 - A raca Valeriana nao e unida.
 - Outros Valerianos veem Solaris como hipocrita, arrogante ou perigoso.
@@ -49,10 +53,17 @@ Essa divinizacao pode ser interpretacao religiosa, politica ou manipulacao.
 
 Solaris transformou sua matriz runica em base de uma estrutura politica, religiosa e militar. Isso incomoda profundamente Valerianos que recusam culto, adoracao e comercio das Marcas.
 
+## Relacao com as Marcas
+
+Para muitos Valerianos, pele marcada e territorio simbolico. Marcar um humano que ja carrega a Runa de outro Valeriano pode ser visto como disputa, provocacao ou negociacao de poder.
+
+Alguns Valerianos recusam completamente a pratica. Para eles, compartilhar uma Runa e humilhacao historica: descendentes falhos rastejando por migalhas do codigo que um dia lhes pertencia por nascimento.
+
 ## Relacoes
 
 - [Humanos](humanos.md)
 - [Runas](../magia/runas.md)
+- [Mecanica da Marca](../magia/mecanica-da-marca.md)
 - [Bencao](../magia/bencao.md)
 - [Guerra da Ruptura](../historia/eventos/guerra-da-ruptura.md)
 - [Imperio Sagrado](../faccoes/imperio-sagrado.md)

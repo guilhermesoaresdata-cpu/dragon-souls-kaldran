@@ -72,6 +72,12 @@ O que no "deus" e espiritual, no mortal se manifesta na carne: uma tatuagem fisi
 
 Para o Valeriano, esse ato nao custa absolutamente nada. A matriz em sua alma permanece intacta e inesgotavel, permitindo que ele marque e abencoe quantos humanos desejar.
 
+Mas a Marca nao e uma coleira magica. Uma vez gravada, a copia do codigo esta feita. O Valeriano nao pode cancela-la a distancia, enfraquecer o humano de longe ou recolher a Bencao por arrependimento.
+
+O terminal funciona enquanto a pele marcada existir.
+
+Para desligar um marcado, e preciso agir fisicamente: mata-lo, captura-lo ou destruir a pele onde a Runa foi inscrita.
+
 O [Imperio Sagrado](../../faccoes/imperio-sagrado.md) prega a adoracao a esses seres, exigindo que o povo se ajoelhe em troca de uma marca na pele.
 
 Muitos dos "deuses" originais andam escondidos nas vielas sujas de [Utgard](../../mapa/kaldran/continentes/utgard/README.md) ou nas fazendas pobres de [Belmora](../../mapa/kaldran/continentes/belmora/README.md). Eles nao querem ser adorados, nao querem templos, nao querem coroas e nao querem hinos.
@@ -87,4 +93,5 @@ Querem apenas esquecer a guerra que os arruinou, fugindo do fanatismo de seus pr
 - [Valerianos](../../povos/valerianos.md)
 - [Humanos](../../povos/humanos.md)
 - [Runas](../../magia/runas.md)
+- [Mecanica da Marca](../../magia/mecanica-da-marca.md)
 - [Imperio Sagrado](../../faccoes/imperio-sagrado.md)

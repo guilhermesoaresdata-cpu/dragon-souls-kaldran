@@ -38,6 +38,8 @@ Quando uma informacao ainda nao foi definida, ela deve permanecer marcada como:
 - Solaris e o eixo institucional de Asgardia.
 - A Marca comum de Solaris fica nas costas da mao direita dos soldados imperiais.
 - O Cavaleiro Santo e um humano marcado no coracao, avatar vivo e mortal da Purificacao Absoluta.
+- Marcas nao podem ser canceladas a distancia pelo Valeriano.
+- A aparencia de cada Marca depende da Runa e da estetica do Valeriano que a concede.
 
 ## Mapa oficial
 

@@ -21,6 +21,9 @@ O Imperio Sagrado e a faccao dominante de Asgardia e se sustenta na autoridade v
 - No Dia da Purificacao, Solaris aparece diante do povo e marca os novos batalhoes.
 - A Marca comum de Solaris e aplicada nas costas da mao direita dos recrutas.
 - A Marca comum de Solaris e limpa e indolor.
+- O Imperio Sagrado usa a Marca do Deus Principal em seus recrutas militares.
+- O exercito imperial funciona como uma forca padronizada baseada em uma unica matriz Valeriana.
+- Um soldado marcado pode desertar sem perder a Marca, pois Solaris nao pode cancela-la a distancia.
 - Solaris possui um campeao singular chamado Cavaleiro Santo.
 - Solaris protege a capital.
 - Solaris fornece sua Runa aos exercitos imperiais.
@@ -47,6 +50,14 @@ Toda autoridade imperial existe a sombra da permissao de Solaris. Se Solaris ret
 No Dia da Purificacao, Solaris aplica a [Marca de Solaris](../magia/marcas/marca-de-solaris.md) em novos batalhoes. Para o Imperio, isso e bencao; para seus inimigos, e producao em massa.
 
 O [Cavaleiro Santo](../personagens/cavaleiro-santo/README.md) nao e equivalente a um soldado marcado comum. Ele e o braco armado pessoal de Solaris e carrega uma Marca extrema no coracao.
+
+### Risco da Desercao
+
+A Marca nao e uma coleira magica. Depois que Solaris grava a Marca comum em um recruta, o codigo continua funcionando enquanto a pele marcada existir.
+
+Um general, campeao ou soldado que desertar leva consigo uma fracao funcional do poder do Deus Principal. Para desligar esse poder, o Imperio precisa matar, capturar ou destruir fisicamente a pele marcada.
+
+Por isso, o Imperio nao teme apenas inimigos externos. Ele teme seus proprios marcados.
 
 ## Relacoes
 

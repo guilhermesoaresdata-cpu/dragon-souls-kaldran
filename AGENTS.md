@@ -185,6 +185,77 @@ Se houver contradicao, o agente nao deve corrigir sozinho. Deve registrar em [no
 - possivel conflito;
 - aviso de que a decisao aguarda o criador.
 
+## Organizacao de Personagens Marcados
+
+Quando o criador criar um personagem marcado por uma Runa, o agente deve registrar:
+
+```md
+# Nome
+
+## Visao Geral
+
+## Informacoes Oficiais
+
+- Nome:
+- Local de origem:
+- Valeriano que concedeu a Marca:
+- Aparencia da Marca:
+- Local da Marca no corpo:
+- Poder concedido:
+- Relacao com o Valeriano:
+- A Marca e legal, imperial, clandestina ou renegada?
+- Risco se a Marca for destruida:
+
+## Detalhes
+
+## Relacoes
+
+## Pendencias
+```
+
+## Organizacao de Valerianos
+
+Quando o criador criar um Valeriano, o agente deve registrar:
+
+```md
+# Nome
+
+## Visao Geral
+
+## Informacoes Oficiais
+
+- Nome:
+- Casta: Nobre ou Comum
+- Localizacao:
+- Runa:
+- Estetica das Marcas concedidas:
+- Costuma marcar humanos?
+- Motivo para marcar ou recusar:
+- Relacao com o Imperio Sagrado:
+- Humanos marcados conhecidos:
+
+## Detalhes
+
+## Relacoes
+
+## Pendencias
+```
+
+## Leis Fixas das Marcas
+
+O agente deve preservar como lei oficial:
+
+- Cada Valeriano possui uma Runa visualmente unica.
+- Nao existe padrao fixo para a aparencia das Marcas.
+- Humanos marcados tem melhora fisica e longevidade ampliada, mas continuam mortais.
+- O Valeriano nao pode cancelar uma Marca a distancia.
+- Depois que a copia da Runa e gravada, ela funciona enquanto a pele marcada existir.
+- Para remover o poder de um marcado comum, e preciso destruir fisicamente a Marca.
+- Nao existe rejeicao biologica para multiplas Runas.
+- A dificuldade de acumular Marcas e social, politica e ligada ao ego dos Valerianos.
+- O Imperio Sagrado usa a Marca do Deus Principal em seus recrutas militares.
+- Existem Valerianos que se recusam completamente a marcar humanos.
+
 ## Regra final
 
 O criador cria a lore. O agente organiza a lore.
