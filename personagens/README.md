@@ -6,16 +6,21 @@ Registro dos personagens oficiais de Kaldran.
 
 ## Informacoes Oficiais
 
-> Ainda nao definido pelo criador.
+- Solaris e um Valeriano Nobre da Primeira Geracao.
+- Solaris possui um campeao singular chamado Cavaleiro Santo.
 
 ## Detalhes
 
-> Ainda nao definido pelo criador.
+- [Solaris](valerianos/solaris.md)
+- [Cavaleiro Santo](cavaleiro-santo/README.md)
 
 ## Relacoes
 
 - [Kaldran](../mapa/kaldran/README.md)
+- [Valerianos](../povos/valerianos.md)
+- [Imperio Sagrado](../faccoes/imperio-sagrado.md)
 
 ## Pendencias
 
-- Definir personagens oficiais.
+- Definir o nome do Cavaleiro Santo atual.
+- Definir outros personagens oficiais.

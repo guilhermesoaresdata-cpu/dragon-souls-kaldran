@@ -18,13 +18,18 @@ Registro dos sistemas, fenomenos e regras de magia oficiais de Kaldran.
 
 - [Runas](runas.md)
 - [Bencao](bencao.md)
+- [Mecanica da Marca](mecanica-da-marca.md)
+- [Runas Especificas](runas/README.md)
+- [Marcas](marcas/README.md)
 
 ## Relacoes
 
 - [Kaldran](../mapa/kaldran/README.md)
+- [Valerianos](../povos/valerianos.md)
+- [Humanos](../povos/humanos.md)
 
 ## Pendencias
 
 - Definir regras detalhadas de conjuracao.
-- Definir tipos de Runas.
-- Definir limites e riscos da magia humana.
+- Definir outras Runas especificas alem da Runa de Solaris.
+- Definir outras Marcas oficiais.

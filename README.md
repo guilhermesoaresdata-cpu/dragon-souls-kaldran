@@ -35,6 +35,9 @@ Quando uma informacao ainda nao foi definida, ela deve permanecer marcada como:
 - A magia em Kaldran nao e energia solta: magia e codigo espiritual executado por Runas.
 - Humanos sao descendentes ocos dos Valerianos.
 - O Imperio Sagrado trata Valerianos como deuses.
+- Solaris e o eixo institucional de Asgardia.
+- A Marca comum de Solaris fica nas costas da mao direita dos soldados imperiais.
+- O Cavaleiro Santo e um humano marcado no coracao, avatar vivo e mortal da Purificacao Absoluta.
 
 ## Mapa oficial
 
@@ -60,3 +63,6 @@ Quando uma informacao ainda nao foi definida, ela deve permanecer marcada como:
 - [Guerra da Ruptura](historia/eventos/guerra-da-ruptura.md)
 - [Valerianos](povos/valerianos.md)
 - [Runas](magia/runas.md)
+- [Solaris](personagens/valerianos/solaris.md)
+- [Cavaleiro Santo](personagens/cavaleiro-santo/README.md)
+- [Mecanica da Marca](magia/mecanica-da-marca.md)

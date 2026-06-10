@@ -24,6 +24,10 @@ Eles nao sao deuses verdadeiros. Sao parecidos fisicamente com humanos, mas poss
 - A matriz espiritual Valeriana permanece intacta e inesgotavel.
 - Muitos Valerianos originais vivem escondidos em Utgard ou Belmora.
 - Muitos deles nao querem ser adorados e recusam distribuir seu poder.
+- Solaris e um Valeriano Nobre da Primeira Geracao.
+- A raca Valeriana nao e unida.
+- Outros Valerianos veem Solaris como hipocrita, arrogante ou perigoso.
+- Existe uma guerra fria entre Valerianos dentro de Asgardia.
 
 ## Relacao com Humanos
 
@@ -43,6 +47,8 @@ O [Imperio Sagrado](../faccoes/imperio-sagrado.md) chama os Valerianos de deuses
 
 Essa divinizacao pode ser interpretacao religiosa, politica ou manipulacao.
 
+Solaris transformou sua matriz runica em base de uma estrutura politica, religiosa e militar. Isso incomoda profundamente Valerianos que recusam culto, adoracao e comercio das Marcas.
+
 ## Relacoes
 
 - [Humanos](humanos.md)
@@ -50,6 +56,8 @@ Essa divinizacao pode ser interpretacao religiosa, politica ou manipulacao.
 - [Bencao](../magia/bencao.md)
 - [Guerra da Ruptura](../historia/eventos/guerra-da-ruptura.md)
 - [Imperio Sagrado](../faccoes/imperio-sagrado.md)
+- [Solaris](../personagens/valerianos/solaris.md)
+- [Cavaleiro Santo](../personagens/cavaleiro-santo/README.md)
 
 ## Pendencias
 
@@ -58,3 +66,4 @@ Essa divinizacao pode ser interpretacao religiosa, politica ou manipulacao.
 - Definir se existem Valerianos puros vivos atualmente alem dos originais escondidos.
 - Definir como um Valeriano se esconde da sociedade e do Imperio.
 - Definir se a palavra "deus" e usada por todos ou apenas pelo Imperio Sagrado.
+- Definir quais Valerianos vivem em Asgardia.

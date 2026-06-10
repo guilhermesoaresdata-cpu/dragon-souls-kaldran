@@ -15,6 +15,8 @@ Esse conflito levou a quebra do antigo supercontinente de Kaldran.
 - Os demonios vieram como colonizadores em busca de territorio.
 - A guerra durou geracoes.
 - Os Valerianos usaram suas Runas como armas de aniquilacao.
+- Solaris decapitou o Lorde Demonio que comandava a resistencia final em Asgardia nos ultimos dias da Guerra da Ruptura.
+- Esse ato nao encerrou sozinho toda a Guerra da Ruptura, mas consolidou Solaris como Matador de Demonios.
 - Os Valerianos sobrecarregaram suas matrizes espirituais para reescrever a geografia de Kaldran.
 - O supercontinente rachou e o mar central invadiu as falhas.
 - A terra foi separada em cinco grandes blocos.
@@ -37,6 +39,8 @@ Esse conflito levou a quebra do antigo supercontinente de Kaldran.
 - [Supercontinente Quebrado](../supercontinente-quebrado.md)
 - [Zharveth](../../mapa/kaldran/continentes/zharveth/README.md)
 - [Porta do Inferno](../../mapa/kaldran/continentes/zharveth/locais/porta-do-inferno.md)
+- [Solaris](../../personagens/valerianos/solaris.md)
+- [Asgardia](../../mapa/kaldran/continentes/asgardia/README.md)
 
 ## Pendencias
 

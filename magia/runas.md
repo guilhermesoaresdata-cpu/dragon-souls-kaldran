@@ -16,6 +16,10 @@ Magia em Kaldran nao e energia solta. Magia e a execucao de uma Runa espiritual.
 - A marca humana pode ser uma tatuagem fisica ou cicatriz arcana.
 - Um humano marcado executa codigo espiritual alheio.
 - Um humano comum nao possui Runa propria.
+- A Marca comum nao pode ser cancelada a distancia.
+- A Marca comum so e desligada se a pele marcada for destruida.
+- Um corpo humano pode suportar mais de uma Runa, embora isso crie disputa social e politica entre Valerianos.
+- A [Runa de Solaris](runas/runa-de-solaris.md) possui tres niveis registrados: Solaris, Soldado Imperial e Cavaleiro Santo.
 
 ## Hierarquia Magica
 
@@ -25,15 +29,20 @@ Humano marcado = terminal que executa o codigo
 Humano comum = alma sem runa
 ```
 
+## Detalhes
+
+Para detalhes sobre funcionamento, remocao e diferenca entre Marca comum e Marca no coracao, ver [Mecanica da Marca](mecanica-da-marca.md).
+
 ## Relacoes
 
 - [Bencao](bencao.md)
 - [Valerianos](../povos/valerianos.md)
 - [Humanos](../povos/humanos.md)
+- [Mecanica da Marca](mecanica-da-marca.md)
+- [Runa de Solaris](runas/runa-de-solaris.md)
+- [Marca de Solaris](marcas/marca-de-solaris.md)
 
 ## Pendencias
 
-- Definir se um humano pode receber mais de uma Runa.
-- Definir o que acontece se a marca for removida.
 - Definir se existem humanos nascidos com fragmentos naturais de Runa.
 - Definir se Runas podem ser copiadas, falsificadas ou corrompidas.
