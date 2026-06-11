@@ -1,5 +1,7 @@
 # Cavaleiro Santo
 
+![Cavaleiro Santo de Solaris](../imagens/guerreiro-santo-de-solaris.png)
+
 ## Visao Geral
 
 O Cavaleiro Santo e o campeao singular de Solaris: um humano transformado em avatar de guerra pela Marca extrema cravada no coracao.
@@ -15,8 +17,38 @@ O Cavaleiro Santo e o campeao singular de Solaris: um humano transformado em ava
 - O Cavaleiro Santo e um avatar vivo e mortal da Purificacao Absoluta.
 - O Cavaleiro Santo nao e Valeriano.
 - O Cavaleiro Santo nao possui Runa na alma.
+- A Runa de Solaris queima sob a pele do Cavaleiro Santo como lembranca constante do peso divino que ele nao deveria carregar.
+- Ele nao e um heroi.
+- Ele nao e um escolhido.
+- Ele e descrito como a vontade de Solaris forjada em carne, moldada pelo sofrimento e presa a justica sem misericordia.
+- Ele ja foi mortal.
+- Agora e um recipiente.
+- Solaris nao lhe concedeu poder; Solaris o tornou inquebravel.
+- Ele caminha para que outros sejam purificados.
 
 ## Detalhes
+
+### Aparencia
+
+O Cavaleiro Santo e retratado como uma figura extremamente corpulenta, sem rosto visivel, com um elmo cilindrico de ferro enegrecido.
+
+Seu corpo possui cicatrizes de batalhas antigas e marcas de fardo. A visao posterior indica que nao ha caminho de volta.
+
+### Elmo
+
+- Ferro enegrecido.
+- Sem visao.
+- Sem voz.
+- Apenas presenca.
+- Um tumulo para a identidade.
+
+### Martelo do Julgamento
+
+O Cavaleiro Santo usa o Martelo do Julgamento.
+
+O Martelo do Julgamento e uma arma de guerra crua e monstruosa, forjada na escuridao, usada como extensao da vontade divina.
+
+Ele nao golpeia com raiva, mas em sentenca.
 
 ### A Espada do Sol
 
@@ -61,3 +93,4 @@ Para Solaris, o sofrimento do ritual nao e crueldade. E filtragem.
 - Definir o nome do Cavaleiro Santo atual.
 - Definir se ja existiram outros Cavaleiros Santos.
 - Definir onde o ritual de ascensao e realizado.
+- Definir se o Martelo do Julgamento e a arma atual oficial do Cavaleiro Santo ou uma variacao especifica.

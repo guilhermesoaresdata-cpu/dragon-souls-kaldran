@@ -8,6 +8,7 @@ O Imperio Sagrado e a faccao dominante de Asgardia e se sustenta na autoridade v
 
 - A base do Imperio Sagrado fica em Asgardia.
 - O rei fica em Asgardia.
+- O rei de Asgardia se chama Aldaric.
 - Zharveth e muito monitorado pelo Imperio para controlar o acesso a Porta do Inferno.
 - O Imperio Sagrado chama Valerianos de deuses.
 - O Imperio Sagrado prega adoracao aos Valerianos.
@@ -30,6 +31,7 @@ O Imperio Sagrado e a faccao dominante de Asgardia e se sustenta na autoridade v
 - O Rei governa em nome de Solaris e vive em reverencia e medo diante dele.
 - Asgardia so existe porque Solaris permite.
 - Solaris e aliado da humanidade, mas nao e servo dela.
+- Aldaric e Comandante das Hostes Solares.
 
 ## Detalhes
 
@@ -73,12 +75,14 @@ Por isso, o Imperio nao teme apenas inimigos externos. Ele teme seus proprios ma
 - [Marca de Solaris](../magia/marcas/marca-de-solaris.md)
 - [Mecanica da Marca](../magia/mecanica-da-marca.md)
 - [Adoracao aos Valerianos](../religioes/adoracao-aos-valerianos.md)
+- [Aldaric](../personagens/aldaric.md)
 
 ## Pendencias
 
 - Definir se "Imperio" e "Imperio Sagrado" sao exatamente a mesma entidade.
-- Definir o nome do rei.
+- Definir a estrutura politica do Imperio Sagrado.
 - Definir se o Imperio Sagrado sabe a verdade sobre os Valerianos.
 - Definir se o Imperio Sagrado caca Valerianos escondidos.
 - Definir se o Imperio Sagrado usa a fe para monopolizar a magia.
+- Definir o que sao as Hostes Solares.
 - Definir a hierarquia da cupula da Igreja.

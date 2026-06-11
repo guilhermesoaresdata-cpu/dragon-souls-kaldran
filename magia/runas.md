@@ -23,6 +23,8 @@ Magia em Kaldran nao e energia solta. Magia e a execucao de uma Runa espiritual.
 - Um corpo humano pode suportar mais de uma Runa, embora isso crie disputa social e politica entre Valerianos.
 - Nao existe rejeicao biologica para multiplas Runas.
 - A [Runa de Solaris](runas/runa-de-solaris.md) possui tres niveis registrados: Solaris, Soldado Imperial e Cavaleiro Santo.
+- A Runa de Solaris queima sob a pele do Guerreiro Santo de Solaris.
+- A Marca de Solaris canaliza luz residual para clareza, foco e protecao.
 
 ## Hierarquia Magica
 
@@ -44,8 +46,12 @@ Para detalhes sobre funcionamento, remocao e diferenca entre Marca comum e Marca
 - [Mecanica da Marca](mecanica-da-marca.md)
 - [Runa de Solaris](runas/runa-de-solaris.md)
 - [Marca de Solaris](marcas/marca-de-solaris.md)
+- [Solaris](../personagens/valerianos/solaris.md)
+- [Cavaleiro Santo](../personagens/cavaleiro-santo/README.md)
+- [Aldaric](../personagens/aldaric.md)
 
 ## Pendencias
 
 - Definir se existem humanos nascidos com fragmentos naturais de Runa.
 - Definir se Runas podem ser copiadas, falsificadas ou corrompidas.
+- Definir se a Marca de Solaris de Aldaric segue as mesmas regras da Marca comum dos soldados imperiais.

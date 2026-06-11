@@ -54,3 +54,6 @@ Se lore futura afirmar qualquer um dos pontos abaixo, registrar como duvida ante
 - Existem humanos nascidos com fragmentos naturais de Runa?
 - Qual e o nome do Cavaleiro Santo atual?
 - Qual e o nome oficial da capital de Asgardia?
+- Aldaric e rei de todo o Imperio Sagrado ou apenas de Asgardia?
+- A Marca de Solaris de Aldaric segue as mesmas regras da Marca comum dos soldados imperiais?
+- O Cavaleiro Santo serve Aldaric, o Imperio Sagrado ou Solaris diretamente?

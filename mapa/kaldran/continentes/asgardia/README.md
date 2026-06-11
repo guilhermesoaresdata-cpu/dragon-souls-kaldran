@@ -17,6 +17,9 @@ Asgardia e o continente central de Kaldran, separado por mar. E onde fica a base
 - O Dia da Purificacao e o maior evento militar e religioso de Asgardia.
 - Existe uma guerra fria entre Valerianos dentro de Asgardia.
 - Asgardia so existe porque Solaris permite.
+- O rei de Asgardia se chama Aldaric.
+- Asgardia tambem e apresentada como Cidade do Sol.
+- Frase associada a Asgardia: "Onde a lei e luz, e a luz e dever."
 
 ## Detalhes
 
@@ -30,6 +33,8 @@ A [Cidadela Eclesiastica](capital/cidadela-eclesiastica.md) concentra o poder re
 
 Asgardia permanece inteira nao por harmonia divina, mas por conveniencia estrategica entre Valerianos poderosos.
 
+Asgardia e associada a Solaris, simbolo solar ligado a luz, verdade e protecao.
+
 ## Relacoes
 
 - [Kaldran](../../README.md)
@@ -38,10 +43,13 @@ Asgardia permanece inteira nao por harmonia divina, mas por conveniencia estrate
 - [Cidadela Eclesiastica](capital/cidadela-eclesiastica.md)
 - [Marca de Solaris](../../../../magia/marcas/marca-de-solaris.md)
 - [Cavaleiro Santo](../../../../personagens/cavaleiro-santo/README.md)
+- [Aldaric](../../../../personagens/aldaric.md)
 
 ## Pendencias
 
 - Definir o nome oficial da capital de Asgardia.
 - Definir detalhes do Palacio Imperial.
+- Definir cidades de Asgardia.
 - Definir rotas comerciais.
 - Definir a hierarquia da cupula da Igreja.
+- Definir se "Asgardia, Cidade do Sol" e a capital, a sede do rei ou outro nome oficial.

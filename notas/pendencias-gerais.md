@@ -13,7 +13,8 @@ Pendencias gerais do projeto Dragon Souls: Kaldran.
 - Definir o nome oficial da religiao imperial.
 - Definir criaturas alem dos demonios.
 - Definir tipos de Runas e regras detalhadas de magia.
-- Definir personagens.
+- Definir outros personagens alem de Aldaric, Solaris e Cavaleiro Santo.
 - Definir conflitos principais alem da Guerra da Ruptura.
 - Definir se o Imperio Sagrado sabe a verdade sobre os Valerianos.
 - Manter [instrucoes-de-lore.md](instrucoes-de-lore.md) atualizado quando novas regras estruturais forem definidas.
+- Definir o que sao as Hostes Solares.

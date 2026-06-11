@@ -10,6 +10,9 @@ Registro das religioes oficiais de Kaldran.
 - Os Valerianos sao chamados de deuses pelo Imperio Sagrado.
 - As marcas concedidas por Valerianos sao tratadas como bencaos religiosas.
 - Solaris e o Deus do Sol e centro religioso de Asgardia.
+- Solaris e associado a luz, verdade e protecao.
+- Existe uma Marca de Solaris.
+- Existe uma Runa de Solaris.
 - A Cidadela Eclesiastica e o centro religioso onde Solaris permanece isolado.
 - O Dia da Purificacao e o maior evento militar e religioso de Asgardia.
 

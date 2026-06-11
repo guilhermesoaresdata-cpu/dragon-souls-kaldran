@@ -59,6 +59,11 @@ Quando uma informacao ainda nao foi definida, ela deve permanecer marcada como:
 - [Sentinela](mapa/kaldran/continentes/belmora/locais/sentinela.md)
 - [Porta do Inferno](mapa/kaldran/continentes/zharveth/locais/porta-do-inferno.md)
 
+## Personagens oficiais
+
+- [Aldaric](personagens/aldaric.md)
+- [Cavaleiro Santo](personagens/cavaleiro-santo/README.md)
+
 ## Lore central
 
 - [Capitulo I - A Guerra da Ruptura e a Quebra do Codigo](historia/capitulos/capitulo-01-guerra-da-ruptura.md)
