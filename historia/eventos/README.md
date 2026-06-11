@@ -11,4 +11,5 @@ Eventos historicos oficiais de Kaldran.
 ## Relacoes
 
 - [Historia](../README.md)
+- [Eventos Importantes](../eventos-importantes.md)
 

@@ -2,7 +2,9 @@
 
 ## Visao Geral
 
-A Guerra da Ruptura foi o conflito entre os Valerianos e os demonios que entraram em Kaldran pela Porta do Inferno.
+A Guerra da Ruptura, neste arquivo, deve ser lida pelo angulo de conflito: lados envolvidos, liderancas, campanhas, estrategias, batalhas e consequencias militares.
+
+O registro historico geral fica em [Guerra da Ruptura - Evento Historico](../historia/eventos/guerra-da-ruptura.md).
 
 ## Informacoes Oficiais
 
@@ -14,6 +16,15 @@ A Guerra da Ruptura foi o conflito entre os Valerianos e os demonios que entrara
 - Os Valerianos usaram suas Runas como armas de aniquilacao.
 - A guerra levou a quebra do supercontinente de Kaldran.
 
+## Lados Envolvidos
+
+- [Valerianos](../povos/valerianos.md)
+- [Demonios](../criaturas/demonios.md)
+
+## Campanhas e Batalhas
+
+> Ainda nao definido pelo criador.
+
 ## Consequencias
 
 - Kaldran foi separado em cinco continentes principais.
@@ -24,6 +35,7 @@ A Guerra da Ruptura foi o conflito entre os Valerianos e os demonios que entrara
 ## Relacoes
 
 - [Guerra da Ruptura - Evento Historico](../historia/eventos/guerra-da-ruptura.md)
+- [Capitulo I - A Guerra da Ruptura e a Quebra do Codigo](../historia/capitulos/capitulo-01-guerra-da-ruptura.md)
 - [Valerianos](../povos/valerianos.md)
 - [Demonios](../criaturas/demonios.md)
 - [Porta do Inferno](../mapa/kaldran/continentes/zharveth/locais/porta-do-inferno.md)

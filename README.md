@@ -24,7 +24,7 @@ Quando uma informacao ainda nao foi definida, ela deve permanecer marcada como:
 - [Magia](magia/README.md)
 - [Culturas](culturas/README.md)
 - [Conflitos](conflitos/README.md)
-- [Notas](notas/ideias-soltas.md)
+- [Notas](notas/README.md)
 
 ## Estado oficial atual
 
@@ -63,6 +63,7 @@ Quando uma informacao ainda nao foi definida, ela deve permanecer marcada como:
 
 - [Capitulo I - A Guerra da Ruptura e a Quebra do Codigo](historia/capitulos/capitulo-01-guerra-da-ruptura.md)
 - [Guerra da Ruptura](historia/eventos/guerra-da-ruptura.md)
+- [Guerra da Ruptura - Conflito](conflitos/guerra-da-ruptura.md)
 - [Valerianos](povos/valerianos.md)
 - [Runas](magia/runas.md)
 - [Solaris](personagens/valerianos/solaris.md)

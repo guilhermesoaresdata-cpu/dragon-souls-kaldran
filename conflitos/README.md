@@ -16,6 +16,7 @@ Registro dos conflitos oficiais de Kaldran.
 ## Relacoes
 
 - [Kaldran](../mapa/kaldran/README.md)
+- [Historia](../historia/README.md)
 
 ## Pendencias
 
