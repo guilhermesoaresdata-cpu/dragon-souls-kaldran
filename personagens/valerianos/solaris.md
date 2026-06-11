@@ -36,6 +36,10 @@ Solaris e um Valeriano Nobre da Primeira Geracao, venerado pelo Imperio Sagrado 
 
 ## Detalhes
 
+### Referencia Visual Oficial
+
+![Solaris - Ficha Visual](../../assets/personagens/solaris/solaris-ficha-visual.png)
+
 ### Natureza
 
 Solaris nao e apenas um dos seres mais antigos ainda vivos em Kaldran. Ele e uma das matrizes runicas mais puras, primitivas e devastadoras remanescentes da linhagem Valeriana.
