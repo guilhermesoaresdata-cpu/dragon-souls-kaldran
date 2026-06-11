@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dragon Souls · Kaldran</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Courier+Prime&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  :root {
+    --bg: #08080c;
+    --bg-surface: #110f0a;
+    --bg-card: #1a160e;
+    --bg-sidebar: #0f0d09;
+    --gold: #c9a84c;
+    --gold-dim: #7a6228;
+    --gold-bright: #e8c96a;
+    --blood: #8b1a1a;
+    --blood-bright: #c0392b;
+    --text: #e8dcc8;
+    --text-muted: #9a8f7a;
+    --text-dim: #5a5040;
+    --border: #2a2318;
+    --border-gold: #3a2e18;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+
+  /* TOPBAR */
+  #topbar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    height: 52px;
+    background: rgba(8,8,12,0.95);
+    border-bottom: 1px solid var(--border-gold);
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 2rem;
+    backdrop-filter: blur(8px);
+  }
+
+  #topbar .brand {
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    color: var(--gold);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  #topbar .brand span {
+    color: var(--text-muted);
+    font-weight: 400;
+  }
+
+  #search-wrap {
+    flex: 1;
+    max-width: 360px;
+    position: relative;
+  }
+
+  #search {
+    width: 100%;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text);
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    padding: 6px 12px 6px 32px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  #search:focus { border-color: var(--gold-dim); }
+  #search::placeholder { color: var(--text-dim); }
+
+  #search-wrap::before {
+    content: '⌕';
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-dim);
+    font-size: 16px;
+    pointer-events: none;
+  }
+
+  #search-results {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0; right: 0;
+    background: var(--bg-card);
+    border: 1px solid var(--border-gold);
+    border-radius: 4px;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 200;
+    display: none;
+  }
+
+  #search-results.open { display: block; }
+
+  .search-item {
+    padding: 8px 14px;
+    cursor: pointer;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
+    transition: background 0.15s;
+  }
+
+  .search-item:last-child { border-bottom: none; }
+  .search-item:hover { background: var(--border); }
+
+  .search-item .si-path {
+    font-size: 11px;
+    color: var(--text-dim);
+    font-family: 'Courier Prime', monospace;
+    margin-top: 2px;
+  }
+
+  /* LAYOUT */
+  #layout {
+    display: flex;
+    padding-top: 52px;
+    min-height: 100vh;
+  }
+
+  /* SIDEBAR */
+  #sidebar {
+    width: 260px;
+    min-width: 260px;
+    background: var(--bg-sidebar);
+    border-right: 1px solid var(--border);
+    height: calc(100vh - 52px);
+    position: sticky;
+    top: 52px;
+    overflow-y: auto;
+    padding: 1.5rem 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-gold) transparent;
+  }
+
+  .sidebar-loading {
+    padding: 1rem 1.5rem;
+    color: var(--text-dim);
+    font-size: 14px;
+    font-style: italic;
+  }
+
+  .nav-section {
+    margin-bottom: 0.25rem;
+  }
+
+  .nav-section-title {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    color: var(--gold-dim);
+    text-transform: uppercase;
+    padding: 0.75rem 1.5rem 0.35rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    transition: color 0.2s;
+  }
+
+  .nav-section-title:hover { color: var(--gold); }
+
+  .nav-section-title .arrow {
+    font-size: 10px;
+    transition: transform 0.2s;
+  }
+
+  .nav-section-title.collapsed .arrow { transform: rotate(-90deg); }
+
+  .nav-items { overflow: hidden; }
+  .nav-items.collapsed { display: none; }
+
+  .nav-item {
+    display: block;
+    padding: 5px 1.5rem 5px 2rem;
+    font-size: 14px;
+    color: var(--text-muted);
+    cursor: pointer;
+    transition: color 0.15s, background 0.15s;
+    border-left: 2px solid transparent;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .nav-item:hover {
+    color: var(--text);
+    background: var(--border);
+  }
+
+  .nav-item.active {
+    color: var(--gold);
+    border-left-color: var(--gold);
+    background: rgba(201,168,76,0.06);
+  }
+
+  /* MAIN CONTENT */
+  #main {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* HERO */
+  #hero {
+    position: relative;
+    min-height: 420px;
+    display: flex;
+    align-items: flex-end;
+    padding: 4rem 4rem 3rem;
+    overflow: hidden;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg);
+  }
+
+  #hero-map {
+    position: absolute;
+    inset: 0;
+    background-image: url('https://raw.githubusercontent.com/guilhermesoaresdata-cpu/dragon-souls-kaldran/main/mapa/kaldran/imagens/mapa-kaldran-mundo-conhecido.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.18;
+    filter: sepia(0.6);
+  }
+
+  #hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, var(--bg) 0%, rgba(8,8,12,0.4) 60%, transparent 100%);
+  }
+
+  #hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 680px;
+  }
+
+  #hero-eyebrow {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    color: var(--gold-dim);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  #hero-title {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--gold);
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 24px rgba(0,0,0,0.8);
+  }
+
+  #hero-subtitle {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    font-weight: 400;
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+    margin-bottom: 1.5rem;
+  }
+
+  #hero-lore {
+    font-size: 16px;
+    color: var(--text-muted);
+    font-style: italic;
+    max-width: 560px;
+    line-height: 1.6;
+    border-left: 2px solid var(--gold-dim);
+    padding-left: 1rem;
+  }
+
+  /* STATE CARDS */
+  #state-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .state-card {
+    background: var(--bg-surface);
+    padding: 1.25rem 1.5rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-decoration: none;
+    display: block;
+  }
+
+  .state-card:hover { background: var(--bg-card); }
+
+  .state-card-label {
+    font-family: 'Cinzel', serif;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--gold-dim);
+    text-transform: uppercase;
+    margin-bottom: 0.35rem;
+  }
+
+  .state-card-value {
+    font-size: 15px;
+    color: var(--text);
+  }
+
+  /* ARTICLE AREA */
+  #article-area {
+    flex: 1;
+    padding: 2.5rem 4rem;
+    max-width: 860px;
+  }
+
+  #article-placeholder {
+    padding: 4rem 0;
+    text-align: center;
+    color: var(--text-dim);
+  }
+
+  #article-placeholder .rune-symbol {
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    color: var(--border-gold);
+    display: block;
+    margin-bottom: 1rem;
+    line-height: 1;
+  }
+
+  #article-placeholder p {
+    font-size: 15px;
+    font-style: italic;
+  }
+
+  /* ARTICLE CONTENT */
+  #article-content { display: none; }
+  #article-content.visible { display: block; }
+
+  #article-breadcrumb {
+    font-family: 'Courier Prime', monospace;
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  #article-breadcrumb span { color: var(--gold-dim); }
+
+  #article-body h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--gold);
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border-gold);
+  }
+
+  #article-body h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--gold-bright);
+    margin: 2rem 0 0.75rem;
+  }
+
+  #article-body h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: var(--text);
+    margin: 1.5rem 0 0.5rem;
+    letter-spacing: 0.04em;
+  }
+
+  #article-body p {
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+
+  #article-body ul, #article-body ol {
+    margin: 0.75rem 0 1rem 1.5rem;
+  }
+
+  #article-body li {
+    margin-bottom: 0.35rem;
+    color: var(--text);
+  }
+
+  #article-body li::marker { color: var(--gold-dim); }
+
+  #article-body blockquote {
+    border-left: 3px solid var(--gold-dim);
+    padding-left: 1.25rem;
+    color: var(--text-muted);
+    font-style: italic;
+    margin: 1rem 0;
+  }
+
+  #article-body pre {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+  }
+
+  #article-body code {
+    font-family: 'Courier Prime', monospace;
+    font-size: 14px;
+    color: var(--gold-bright);
+  }
+
+  #article-body pre code {
+    color: var(--text-muted);
+  }
+
+  #article-body a {
+    color: var(--gold);
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold-dim);
+    transition: color 0.15s;
+  }
+
+  #article-body a:hover { color: var(--gold-bright); }
+
+  #article-body hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2rem 0;
+  }
+
+  #article-body img {
+    max-width: 100%;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    margin: 1rem 0;
+    opacity: 0.9;
+  }
+
+  /* RUNE CORNER DECORATION */
+  .rune-corner {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-color: var(--gold-dim);
+    border-style: solid;
+  }
+
+  /* LOADING SPINNER */
+  #article-loading {
+    display: none;
+    padding: 4rem 0;
+    text-align: center;
+    color: var(--gold-dim);
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+  }
+
+  #article-loading.visible { display: block; }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 1; }
+  }
+
+  #article-loading::before {
+    content: '⬡';
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+
+  /* CATEGORY ICONS */
+  .cat-icon {
+    display: inline-block;
+    width: 14px;
+    text-align: center;
+    margin-right: 6px;
+    color: var(--gold-dim);
+    font-style: normal;
+  }
+
+  /* RELATED LINKS */
+  #related-section {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    display: none;
+  }
+
+  #related-section.visible { display: block; }
+
+  #related-section h4 {
+    font-family: 'Cinzel', serif;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: var(--gold-dim);
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+
+  .related-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .related-link {
+    font-size: 13px;
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 4px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: 'Courier Prime', monospace;
+  }
+
+  .related-link:hover {
+    border-color: var(--gold-dim);
+    color: var(--gold);
+  }
+
+  /* SCROLLBAR */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border-gold); border-radius: 3px; }
+
+  /* MOBILE */
+  #sidebar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--gold);
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px;
+  }
+
+  @media (max-width: 768px) {
+    #sidebar-toggle { display: block; }
+    #sidebar {
+      position: fixed;
+      top: 52px;
+      left: -260px;
+      z-index: 90;
+      transition: left 0.25s;
+      height: calc(100vh - 52px);
+    }
+    #sidebar.open { left: 0; }
+    #article-area { padding: 1.5rem; }
+    #hero { padding: 2rem 1.5rem; }
+    #state-cards { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<nav id="topbar">
+  <button id="sidebar-toggle" onclick="toggleSidebar()" aria-label="Menu">☰</button>
+  <a class="brand" href="#" onclick="showHome()">DRAGON SOULS <span>· KALDRAN</span></a>
+  <div id="search-wrap">
+    <input id="search" type="text" placeholder="Buscar lore..." autocomplete="off" />
+    <div id="search-results"></div>
+  </div>
+</nav>
+
+<div id="layout">
+  <aside id="sidebar">
+    <div class="sidebar-loading" id="sidebar-loading">Carregando arquivos...</div>
+    <div id="nav-tree"></div>
+  </aside>
+
+  <div id="main">
+    <section id="hero">
+      <div id="hero-map"></div>
+      <div id="hero-overlay"></div>
+      <div id="hero-content">
+        <div id="hero-eyebrow">Enciclopédia Oficial do Mundo</div>
+        <h1 id="hero-title">KALDRAN</h1>
+        <div id="hero-subtitle">Dragon Souls</div>
+        <p id="hero-lore">Antes que o primeiro rei humano forjasse uma coroa de ferro, Kaldran era um só. Um supercontinente governado pelos Valerianos — seres cujas almas carregavam Runas, códigos primordiais gravados no espírito.</p>
+      </div>
+    </section>
+
+    <div id="state-cards">
+      <div class="state-card" onclick="loadFile('mapa/kaldran/README.md','mapa/kaldran')">
+        <div class="state-card-label">Continentes</div>
+        <div class="state-card-value">Vintergard · Belmora · Zharveth · Asgardia · Utgard</div>
+      </div>
+      <div class="state-card" onclick="loadFile('historia/capitulos/capitulo-01-guerra-da-ruptura.md','historia/capitulos')">
+        <div class="state-card-label">Lore Fundacional</div>
+        <div class="state-card-value">A Guerra da Ruptura e a Quebra do Código</div>
+      </div>
+      <div class="state-card" onclick="loadFile('magia/runas.md','magia')">
+        <div class="state-card-label">Sistema de Magia</div>
+        <div class="state-card-value">Runas · Código espiritual executado na carne</div>
+      </div>
+      <div class="state-card" onclick="loadFile('povos/valerianos.md','povos')">
+        <div class="state-card-label">Povo Fundador</div>
+        <div class="state-card-value">Valerianos · Origem dos Humanos</div>
+      </div>
+    </div>
+
+    <div id="article-area">
+      <div id="article-placeholder">
+        <span class="rune-symbol">᛭</span>
+        <p>Selecione um arquivo no menu lateral ou use a busca para explorar a lore de Kaldran.</p>
+      </div>
+      <div id="article-loading">Invocando registros...</div>
+      <div id="article-content">
+        <div id="article-breadcrumb"></div>
+        <div id="article-body"></div>
+        <div id="related-section">
+          <h4>Relacionados</h4>
+          <div class="related-links" id="related-links"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const REPO = 'guilhermesoaresdata-cpu/dragon-souls-kaldran';
+const BRANCH = 'main';
+const RAW = `https://raw.githubusercontent.com/${REPO}/${BRANCH}`;
+const API = `https://api.github.com/repos/${REPO}/git/trees/${BRANCH}?recursive=1`;
+
+const CATEGORY_ICONS = {
+  historia: '📜',
+  povos: '⚔',
+  faccoes: '⚑',
+  religioes: '✦',
+  criaturas: '🐉',
+  magia: '⬡',
+  mapa: '🗺',
+  conflitos: '⚔',
+  culturas: '◈',
+  personagens: '◉',
+  notas: '◎',
+};
+
+const CATEGORY_LABELS = {
+  historia: 'História',
+  povos: 'Povos',
+  faccoes: 'Facções',
+  religioes: 'Religiões',
+  criaturas: 'Criaturas',
+  magia: 'Magia',
+  mapa: 'Mapa',
+  conflitos: 'Conflitos',
+  culturas: 'Culturas',
+  personagens: 'Personagens',
+  notas: 'Notas',
+};
+
+let allFiles = [];
+let activeItem = null;
+
+async function buildNav() {
+  try {
+    const res = await fetch(API);
+    const data = await res.json();
+    const mdFiles = data.tree
+      .filter(f => f.type === 'blob' && f.path.endsWith('.md') && !f.path.startsWith('AGENTS') && f.path !== 'README.md')
+      .map(f => f.path);
+
+    allFiles = mdFiles;
+    document.getElementById('sidebar-loading').style.display = 'none';
+
+    const grouped = {};
+    mdFiles.forEach(path => {
+      const parts = path.split('/');
+      const root = parts[0];
+      if (!grouped[root]) grouped[root] = [];
+      grouped[root].push(path);
+    });
+
+    const navTree = document.getElementById('nav-tree');
+    const order = ['historia','mapa','povos','faccoes','religioes','criaturas','magia','conflitos','culturas','personagens','notas'];
+    const roots = order.filter(k => grouped[k]).concat(Object.keys(grouped).filter(k => !order.includes(k)));
+
+    roots.forEach(root => {
+      const files = grouped[root];
+      const label = CATEGORY_LABELS[root] || root;
+      const icon = CATEGORY_ICONS[root] || '·';
+
+      const section = document.createElement('div');
+      section.className = 'nav-section';
+
+      const titleEl = document.createElement('div');
+      titleEl.className = 'nav-section-title';
+      titleEl.innerHTML = `<span>${icon} &nbsp;${label}</span><span class="arrow">▾</span>`;
+      titleEl.onclick = () => {
+        titleEl.classList.toggle('collapsed');
+        itemsEl.classList.toggle('collapsed');
+      };
+
+      const itemsEl = document.createElement('div');
+      itemsEl.className = 'nav-items';
+
+      files.forEach(path => {
+        const parts = path.split('/');
+        const filename = parts[parts.length - 1].replace('.md', '').replace(/-/g, ' ');
+        const displayName = filename === 'README' ? `[${label}]` : capitalize(filename);
+        const depth = parts.length - 2;
+
+        const item = document.createElement('div');
+        item.className = 'nav-item';
+        item.style.paddingLeft = `${2 + depth * 0.75}rem`;
+        item.textContent = displayName;
+        item.dataset.path = path;
+        item.dataset.section = root;
+        item.onclick = () => loadFile(path, root);
+        itemsEl.appendChild(item);
+      });
+
+      section.appendChild(titleEl);
+      section.appendChild(itemsEl);
+      navTree.appendChild(section);
+    });
+
+    buildSearchIndex(mdFiles);
+  } catch(e) {
+    document.getElementById('sidebar-loading').textContent = 'Erro ao carregar arquivos.';
+    console.error(e);
+  }
+}
+
+function capitalize(str) {
+  return str.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+}
+
+async function loadFile(path, section) {
+  document.getElementById('article-placeholder').style.display = 'none';
+  document.getElementById('article-content').classList.remove('visible');
+  document.getElementById('article-loading').classList.add('visible');
+  document.getElementById('related-section').classList.remove('visible');
+
+  if (activeItem) activeItem.classList.remove('active');
+  const newActive = document.querySelector(`[data-path="${path}"]`);
+  if (newActive) {
+    newActive.classList.add('active');
+    activeItem = newActive;
+  }
+
+  document.getElementById('hero').style.display = 'none';
+  document.getElementById('state-cards').style.display = 'none';
+
+  try {
+    const res = await fetch(`${RAW}/${path}`);
+    if (!res.ok) throw new Error('404');
+    const md = await res.text();
+
+    const parts = path.split('/');
+    const breadcrumb = parts.map((p, i) => {
+      const name = p.replace('.md','').replace(/-/g,' ');
+      return i < parts.length - 1 ? `<span>${name}</span> /` : name;
+    }).join(' ');
+
+    document.getElementById('article-breadcrumb').innerHTML = breadcrumb;
+
+    const processed = preprocessMarkdown(md, path);
+    document.getElementById('article-body').innerHTML = marked.parse(processed);
+
+    patchInternalLinks(path);
+    extractRelated(md, path);
+
+    document.getElementById('article-loading').classList.remove('visible');
+    document.getElementById('article-content').classList.add('visible');
+
+    document.getElementById('article-area').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  } catch(e) {
+    document.getElementById('article-loading').classList.remove('visible');
+    document.getElementById('article-body').innerHTML = `<p style="color:var(--text-muted);font-style:italic;">Arquivo n&atilde;o encontrado ou ainda n&atilde;o definido pelo criador.</p>`;
+    document.getElementById('article-content').classList.add('visible');
+  }
+
+  if (window.innerWidth <= 768) {
+    document.getElementById('sidebar').classList.remove('open');
+  }
+}
+
+function preprocessMarkdown(md, currentPath) {
+  return md.replace(/\[([^\]]+)\]\(https:\/\/github\.com\/[^)]+\/blob\/main\/([^)]+)\)/g, (match, text, relPath) => {
+    return `[${text}](#file:${relPath})`;
+  });
+}
+
+function patchInternalLinks(currentPath) {
+  const body = document.getElementById('article-body');
+  body.querySelectorAll('a[href^="#file:"]').forEach(a => {
+    const filePath = a.getAttribute('href').replace('#file:', '');
+    const root = filePath.split('/')[0];
+    a.href = 'javascript:void(0)';
+    a.onclick = (e) => { e.preventDefault(); loadFile(filePath, root); };
+  });
+  body.querySelectorAll('img').forEach(img => {
+    if (img.src.includes('github.com')) {
+      img.src = img.src
+        .replace('https://github.com/', 'https://raw.githubusercontent.com/')
+        .replace('/raw/main/', `/${BRANCH}/`)
+        .replace('/blob/main/', `/${BRANCH}/`);
+    }
+  });
+}
+
+function extractRelated(md, currentPath) {
+  const links = [];
+  const regex = /\[([^\]]+)\]\(https:\/\/github\.com\/[^)]+\/blob\/main\/([^)]+\.md)\)/g;
+  let m;
+  while ((m = regex.exec(md)) !== null) {
+    if (m[2] !== currentPath) {
+      links.push({ text: m[1], path: m[2] });
+    }
+  }
+  const unique = [...new Map(links.map(l => [l.path, l])).values()].slice(0, 10);
+  if (unique.length > 0) {
+    const container = document.getElementById('related-links');
+    container.innerHTML = '';
+    unique.forEach(l => {
+      const btn = document.createElement('div');
+      btn.className = 'related-link';
+      btn.textContent = l.text;
+      btn.onclick = () => loadFile(l.path, l.path.split('/')[0]);
+      container.appendChild(btn);
+    });
+    document.getElementById('related-section').classList.add('visible');
+  }
+}
+
+function showHome() {
+  document.getElementById('hero').style.display = '';
+  document.getElementById('state-cards').style.display = '';
+  document.getElementById('article-placeholder').style.display = '';
+  document.getElementById('article-content').classList.remove('visible');
+  document.getElementById('article-loading').classList.remove('visible');
+  if (activeItem) { activeItem.classList.remove('active'); activeItem = null; }
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function buildSearchIndex(files) {
+  const input = document.getElementById('search');
+  const results = document.getElementById('search-results');
+
+  input.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    if (!q || q.length < 2) { results.classList.remove('open'); return; }
+
+    const matches = files.filter(f => {
+      const name = f.split('/').pop().replace('.md','').replace(/-/g,' ').toLowerCase();
+      return name.includes(q) || f.toLowerCase().includes(q);
+    }).slice(0, 8);
+
+    if (matches.length === 0) { results.classList.remove('open'); return; }
+
+    results.innerHTML = matches.map(f => {
+      const name = f.split('/').pop().replace('.md','').replace(/-/g,' ');
+      return `<div class="search-item" data-path="${f}">
+        <div>${capitalize(name)}</div>
+        <div class="si-path">${f}</div>
+      </div>`;
+    }).join('');
+
+    results.querySelectorAll('.search-item').forEach(item => {
+      item.onclick = () => {
+        const path = item.dataset.path;
+        loadFile(path, path.split('/')[0]);
+        input.value = '';
+        results.classList.remove('open');
+      };
+    });
+
+    results.classList.add('open');
+  });
+
+  document.addEventListener('click', e => {
+    if (!document.getElementById('search-wrap').contains(e.target)) {
+      results.classList.remove('open');
+    }
+  });
+}
+
+function toggleSidebar() {
+  document.getElementById('sidebar').classList.toggle('open');
+}
+
+buildNav();
+</script>
+</body>
+</html>
